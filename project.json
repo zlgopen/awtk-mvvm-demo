@@ -1,0 +1,48 @@
+{
+  "name": "AwtkApplication",
+  "entry": "home_page",
+  "awtkRoot": "${AWTK_SDK_PATH}/awtk",
+  "awtkMvvmRoot": "${AWTK_SDK_PATH}/awtk-mvvm",
+  "type": "PROJECT_WIDGETS_APPLICATION",
+  "appTitle": "AwtkApplication",
+  "appExeName": "demo",
+  "appType": "APP_SIMULATOR",
+  "dependencies": {
+    "awtk": ">=2210"
+  },
+  "assets": {
+    "activedTheme": "default",
+    "outputDir": "res",
+    "loadFrom": "any",
+    "const": "all_data",
+    "screenDPR": "x1",
+    "defaultLanguage": "zh",
+    "defaultCountry": "CN",
+    "lcdOrientation": "0",
+    "lcdFastRotationMode": false,
+    "themes": {
+      "default": {
+        "activedSystemBar": "",
+        "activedBottomSystemBar": "",
+        "packaged": true,
+        "fonts": {
+          "default": {
+            "18": "1234567890abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ`~!@#$%^&*()-_=+[{]}|;:'\",<.>/?",
+            "text": "1234567890abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ`~!@#$%^&*()-_=+[{]}|;:'\",<.>/?",
+            "bpp": "8bits"
+          }
+        },
+        "lcd": {
+          "width": "320",
+          "height": "480",
+          "colorDepth": "16bit",
+          "colorFormat": "BGR(A)"
+        }
+      }
+    }
+  },
+  "creator": {
+    "name": "AWTK Designer",
+    "version": "2.2.2"
+  }
+}
